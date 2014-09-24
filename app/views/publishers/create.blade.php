@@ -1,0 +1,1 @@
+/Users/MacBookEr/Desktop/Playground/generatorPlay/app/views/publishers/create.blade.php

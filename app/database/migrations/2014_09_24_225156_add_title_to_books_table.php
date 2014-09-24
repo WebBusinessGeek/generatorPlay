@@ -14,7 +14,7 @@ class AddTitleToBooksTable extends Migration {
 	{
 		Schema::table('books', function(Blueprint $table)
 		{
-			
+			$table->string('title');
 		});
 	}
 
@@ -28,7 +28,7 @@ class AddTitleToBooksTable extends Migration {
 	{
 		Schema::table('books', function(Blueprint $table)
 		{
-			
+			$table->dropColumn('title');
 		});
 	}
 
